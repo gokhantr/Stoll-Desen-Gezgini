@@ -1,6 +1,6 @@
 # 🧶 Stoll Desen Gezgini
 
-[![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-v1.1-0284C7.svg)](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)
+[![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-v1.2-0284C7.svg)](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20(x86%20%2F%20x64)-1E293B.svg)](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)
 [![Lisans](https://img.shields.io/badge/Lisans-%C3%9ccretsiz%20%2F%20Sekt%C3%B6r-16A34A.svg)](https://github.com/gokhantr/Stoll-Desen-Gezgini)
 
@@ -14,7 +14,7 @@ M1plus programının açılmasını beklemeden, yerel disklerdeki veya yerel ağ
 
 En son güncel sürümü aşağıdaki bağlantıdan hemen indirebilirsiniz:
 
-👉 **[Stoll Desen Gezgini - En Son Sürümü İndir (v1.1)](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)**
+👉 **[Stoll Desen Gezgini - En Son Sürümü İndir](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)**
 
 *Kurulum gerektirmez. İndirdiğiniz `Stoll Desen Gezgini.exe` dosyasını doğrudan çalıştırabilirsiniz.*
 
@@ -46,18 +46,7 @@ En son güncel sürümü aşağıdaki bağlantıdan hemen indirebilirsiniz:
 
 ---
 
-## 📝 Versiyon Notları
-
-### v1.1
-- Uygulama adı "Stoll Desen Gezgini" olarak tescillendi.
-- GitHub API tabanlı otomatik ve manuel sürüm denetleyici modülü entegre edildi.
-- En ve boy iğne/sıra ölçüm aracının piksel sınırları ve çerçeve hizalaması kusursuzlaştırıldı.
-- Arayüz renkleri ve buton hover okunabilirlik geliştirmeleri yapıldı.
-- Durum çubuğu ve hakkında pencereleri sadeleştirildi.
-
----
-
 ## 👨‍💻 Geliştirici & İletişim
 
 - **Geliştirici:** Gökhan Yücel
-- **GitHub Reposu:** [https://github.com/gokhantr/Stoll-Desen-Gezgini](https://github.com/gokhantr/Stoll-Desen-Gezgini)
+- **GitHub Reposu:** [https://github.com/gokhantr](https://github.com/gokhantr)
