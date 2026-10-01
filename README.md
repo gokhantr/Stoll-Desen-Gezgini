@@ -14,7 +14,7 @@ M1plus programının açılmasını beklemeden, yerel disklerdeki veya yerel ağ
 
 En son güncel sürümü aşağıdaki bağlantıdan hemen indirebilirsiniz:
 
-👉 **[Stoll Desen Gezgini - En Son Sürümü İndir](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)**
+👉 **[Stoll Desen Gezgini - En Son Sürümü İndir (v1.2)](https://github.com/gokhantr/Stoll-Desen-Gezgini/releases/latest)**
 
 *Kurulum gerektirmez. İndirdiğiniz `Stoll Desen Gezgini.exe` dosyasını doğrudan çalıştırabilirsiniz.*
 
@@ -32,6 +32,7 @@ En son güncel sürümü aşağıdaki bağlantıdan hemen indirebilirsiniz:
   - Desendeki motifleri iğne iğne, sıra sıra ölçün.
   - Çerçevenin solundaki iğnenin sol kenarından sağındaki iğnenin sağ kenarına kadar kusursuz piksel hizalaması.
   - Akıllı bilgi etiketi (kenarlara gelindiğinde otomatik yön değiştirir).
+- 🚀 **Akıllı M1plus Entegrasyonu:** Farklı disk ve versiyonlardaki M1plus kurulumlarını otomatik bulur, desenleri tek tıkla veya `Enter` tuşuyla açar.
 - 🔄 **Otomatik GitHub Güncelleme Denetimi:**
   - Yeni bir sürüm çıktığında uygulama sizi anında uyarır ve tek tıkla yeni sürümü indirmenizi sağlar.
   - Hakkında menüsünden elle güncelleme kontrolü yapılabilir.
@@ -46,7 +47,29 @@ En son güncel sürümü aşağıdaki bağlantıdan hemen indirebilirsiniz:
 
 ---
 
+## 📝 Versiyon Notları
+
+### v1.2
+- **Modern Navigasyon Gezgini:** Eski ağaç yapısı yerine Hızlı Erişim, Bu Bilgisayar/Sürücüler ve Dinamik Alt Klasörler panellerinden oluşan modern yan menüye geçildi.
+- **Tıklanabilir Breadcrumb (Ekmek Kırıntısı):** Üst başlıkta klasör yolunu tıklanabilir butonlara bölen hızlı geri/ileri navigasyon çubuğu eklendi.
+- **Pencere ve Bölme Düzeni Hafızası:** Pencere boyutu, konumu, tam ekran durumu ve sütun genişlikleri (GridSplitter) kapatılırken otomatik kaydedilir ve açılışta korunur.
+- **Ekran Çözünürlüğü ve DPI Koruması:** 1600x900 ve laptop ekranlarında pencere başlığının ekrandan dışarı taşması engellendi, akıllı sığdırma eklendi.
+- **%56 Boyut Optimizasyonu:** Bağımsız tek parça EXE boyutu 140 MB'tan **61 MB**'a indirildi (.NET ve Stoll DLL'leri tam gömülüdür).
+- **Akıllı M1plus Algılama:** Farklı sürücü ve dizinlerdeki M1plus sürümleri (8.x, 7.x vb.) Registry ve disk taramasıyla otomatik bulunur; bulunamazsa kullanıcıya manuel seçim sunulur ve hatırlanır.
+- **Klavyeden Enter ile Açma:** Listede veya galeride seçili desen `Enter` tuşuna basılarak anında M1plus ile açılabilir.
+- **Düşük Bellek Tüketimi (OOM Koruması):** Galeri modunda küçük resim üretimi optimize edildi, yüzlerce desen içeren klasörlerde bellek tüketimi en aza indirildi.
+- **Hata Günlüğü Güvenliği:** Log ve ayar dosyaları yetki kısıtlamalarından etkilenmeyecek şekilde `%AppData%` altına taşındı.
+
+### v1.1
+- Uygulama adı "Stoll Desen Gezgini" olarak tescillendi.
+- GitHub API tabanlı otomatik ve manuel sürüm denetleyici modülü entegre edildi.
+- En ve boy iğne/sıra ölçüm aracının piksel sınırları ve çerçeve hizalaması kusursuzlaştırıldı.
+- Arayüz renkleri ve buton hover okunabilirlik geliştirmeleri yapıldı.
+- Durum çubuğu ve hakkında pencereleri sadeleştirildi.
+
+---
+
 ## 👨‍💻 Geliştirici & İletişim
 
 - **Geliştirici:** Gökhan Yücel
-- **GitHub Reposu:** [https://github.com/gokhantr](https://github.com/gokhantr)
+- **GitHub Reposu:** [https://github.com/gokhantr/Stoll-Desen-Gezgini](https://github.com/gokhantr/Stoll-Desen-Gezgini)
